@@ -35,6 +35,7 @@ void dimmer(int freq, int duty) {
     delay(offTime);
 }
 
+
 void timedLoop(int interval)
 {
   digitalWrite(LED_PIN, HIGH);   // turn the LED on (HIGH is the voltage level)
@@ -44,5 +45,12 @@ void timedLoop(int interval)
 }
 // the loop function runs over and over again forever
 void loop() {
-            timedLoop(500);         // wait for a second
+  for(int i =0; i <= 100; i+= 10){
+  dimmer(100,i);
+  }
+
+  for(int i = 100; i >= 0; i-=10){
+  dimmer(100,i);
+  }
 }
+
