@@ -40,23 +40,26 @@ Team Number: F7
 
 9. Why is SPI so much faster than UART?
 
-    your answer here
+    UART requires more work to decode which limits the maximum data rate. Also UART is asynchronous communication while SPI is synchronous communication.
 
 10. list one pro and one con of UART
 
-    your answer here
+    Pro: The hardware complexity is low.
+    Con: Uart is only suitable for communication between two devices.
 
 11. list one pro and one con of SPI
 
-    your answer here
+    Pro: SPI is faster than I2C and UART.
+    Con: SPI requires pins for each device that wants to be connected.
 
 12. list one pro and one con of I2C
 
-    your answer here
+    Pro: Only needs two lines for multiple devices because each device has its own software address.
+    Con: It requres pull-up resistors which increases power dissipation and consumes PCB real estate.
 
 13. Why does I2C need external resistors to work?
 
-    your answer here
+    Devices using I2C can only pull the signal line low, so that one device isn't pulling it high while another is pulling it low. The pull resistors are then used to restore the signal to high when no device is asserting it low.
 
 ## Screenshots
 
