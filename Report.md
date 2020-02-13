@@ -67,7 +67,7 @@ Procedure A, step 4:
 ![Put path to your image here ->](img/led2.PNG)
 
 Procedure B, UART:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/uart.PNG)
 
 Procedure B, SPI:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/spi.PNG)
