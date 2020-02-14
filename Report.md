@@ -32,11 +32,11 @@ Team Number: F7
 
 7. Profile of UART: Sent X bytes in Y time 
 
-    your answer here
+    Sent 6 bytes in 6.267 milliseconds
 
 8. Profile of SPI: Sent X bytes in Y time
 
-    your answer here
+    Sent 7 bytes in 0.181 milliseconds.
 
 9. Why is SPI so much faster than UART?
 
