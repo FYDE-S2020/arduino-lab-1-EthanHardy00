@@ -40,7 +40,7 @@ Team Number: F7
 
 9. Why is SPI so much faster than UART?
 
-    UART requires more work to decode which limits the maximum data rate. Also UART is asynchronous communication while SPI is synchronous communication.
+    UART requires more work to decode which limits the maximum data rate. Also, UART is asynchronous communication while SPI is synchronous communication. Since this is the case, UART only sends one byte at a time due to requiring the extra negotiating needed to make asynchronous communication work; on the other hand, SPI transmits data in chunks that are larger than one byte.
 
 10. list one pro and one con of UART
 
