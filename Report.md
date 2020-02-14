@@ -55,11 +55,11 @@ Team Number: F7
 12. list one pro and one con of I2C
 
     Pro: Only needs two lines for multiple devices because each device has its own software address.
-    Con: It requres pull-up resistors which increases power dissipation and consumes PCB real estate.
+    Con: It requres pull-up resistors which increases power dissipation, consumes PCB real estate, and limit clock speed.
 
 13. Why does I2C need external resistors to work?
 
-    Devices using I2C can only pull the signal line low, so that one device isn't pulling it high while another is pulling it low. The pull resistors are then used to restore the signal to high when no device is asserting it low.
+    Devices using I2C can only pull the signal line low, so that one device isn't pulling it high while another is pulling it low. The pull-up resistors are then used to restore the signal to high when no device is asserting it low.
 
 ## Screenshots
 
